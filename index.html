@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        .recuadro {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin-top: 10px;
+          cursor: pointer;
+        }
+      </style>
 </head>
 <body>
     <header id="header">
@@ -47,30 +55,49 @@
 
     </div>
 
+    <h1>Formulario</h1>
+    <form id="formulario">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <br>
+      <label for="archivo">Archivo:</label>
+      <input type="file" id="archivo" required>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  
+    <div id="resultado" class="recuadro"></div>
+  
+    <script src="index.js"></script>
+
     <nav>
         <div class="container_nav">
-            <p>Lorem ips<br>m dolor s<br>it amet consectetur adipisicing elit. Iure aut consequatur autem iste tempore. Illum suscipit dignissimos voluptate impedit velit, doloribus odio ipsam autem, optio nam et quod quam Lorem ipsum<br>, dolor sit amet consectetur adipisicing elit. Nostrum, similique! Voluptatibus ipsum nemo numquam blanditiis harum vitae sint dolorem aliquam ad impedit doloribus aut, rerum praesentium. Ipsam tempora aut deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde illum eos perspiciatis enim pariatur molestiae praesentium nisi expedita velit reprehenderit dolor error iu
-            sto qui libero <br>minus odio volupt<br>atum, eveniet est?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro iusto velit impedit provident ad aut cumque, voluptatem libero esse, enim quod nisi praesentium<br> doloribus<br> debit<br>is optio quos, unde ratione aliquam?
-            Voluptates labore optio tempore. A, excepturi sit facere aspernatur provident quaerat iusto tenetur dignissimos accusamus doloribus, eum ipsa earum et accusantium voluptates consequuntur odit! Unde quaerat debitis tenetur deleniti temporibus.
-            Corrupti<br> maxime ab, bla<br>nditiis exc<br>epturi fugit quam, accusamus molestias ipsa maiores vero reprehenderit recusandae iusto atque sint quia delectus omnis? Quibusdam voluptates blanditiis explicabo sint, dolore rep<br>ellendus nihil e<br>sse doloremque!
-            Doloremque magni, aut, voluptas minima laborum laudantium ratione molestiae officia sint quam voluptatum, modi magnam. Laborum similique ratione voluptatum nobis culpa aliquid dignissimos, quos dolorem quaerat? Tempore nihil cumque aliquam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit quod soluta officiis sint vel modi omnis tenetur animi? Laboriosam natus odit quas pariatur debitis itaque, exercitationem consectetur officiis maxime! Vitae.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium minus et sed ea totam. Laudantium error eius dignissimos, iure accusamus saepe dolorem facere placeat aperiam alias perspiciatis? Amet, id assumenda?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorem assumenda natus, quidem quas magnam numquam incidunt et recusandae obcaecati dolor, eos consequatur, consectetur rem suscipit laborum iste perferendis id!
+                <br>m dolor s
         </div>
+        
+          
+          <footer>
+            <!-- Contenido del footer -->
+            <div class="col-12 col-lg-4 contacto-footer">
+                <div class="title-footer">Contáctanos</div>
+            <ul>
+                
+                <li><a href="https://ucc.edu.co/Paginas/Contacto.aspx" title="Ir a Contáctanos" acceskey="U">Contáctanos</a></li>
+                <li><a href="https://www.google.com/maps/@6.3170683,-75.8718843,7z/data=!3m1!4b1!4m2!6m1!1s177IDoYMeDxVPXnbEQqo6HOAKvT4?hl=es" title="Ir a Encuéntranos" acceskey="U">Encuéntranos</a></li>
+                <li><a href="https://www.elempleo.com/co/base-empresarial/universidad-cooperativa-colombia/50866" title="Ir a Trabaja con nosotros" acceskey="U">Trabaja con nosotros</a></li>
+                <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BMPJbvsR70Kmr1tflzw5ZmsQkVfFIDBApQW8cCFJKoVUM1dMNzZGNzkxVjBETUQ4UkNGWEhCTEEwMi4u&amp;embed=true" title="Ir a Mesa de ayuda" acceskey="U">Mesa de ayuda</a></li>
+                <li><a href="mailto:mesa.ayuda@ucc.edu.co" title="Ir a mesa.ayuda@ucc.edu.co" acceskey="U">mesa.ayuda@ucc.edu.co</a></li>
+                <li><a href="https://ucc.edu.co/preguntas-frecuentes" title="Ir a Preguntas frecuentes" acceskey="U">Preguntas frecuentes</a></li>
+            </ul>
+            </div>
+          </footer>
     </nav>
 
 
-    <div class="col-12 col-lg-4 contacto-footer">
-        <div class="title-footer">Contáctanos</div>
-        <a href="https://ucc.edu.co/Paginas/Contacto.aspx" title="Ir a Contáctanos" acceskey="U">Contáctanos</a>
-        <a href="https://www.google.com/maps/@6.3170683,-75.8718843,7z/data=!3m1!4b1!4m2!6m1!1s177IDoYMeDxVPXnbEQqo6HOAKvT4?hl=es" title="Ir a Encuéntranos" acceskey="U">Encuéntranos</a>
-        <a href="https://www.elempleo.com/co/base-empresarial/universidad-cooperativa-colombia/50866" title="Ir a Trabaja con nosotros" acceskey="U">Trabaja con nosotros</a>
-        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=BMPJbvsR70Kmr1tflzw5ZmsQkVfFIDBApQW8cCFJKoVUM1dMNzZGNzkxVjBETUQ4UkNGWEhCTEEwMi4u&amp;embed=true" title="Ir a Mesa de ayuda" acceskey="U">Mesa de ayuda</a>
-        <a href="mailto:mesa.ayuda@ucc.edu.co" title="Ir a mesa.ayuda@ucc.edu.co" acceskey="U">mesa.ayuda@ucc.edu.co</a>
-        <a href="https://ucc.edu.co/preguntas-frecuentes" title="Ir a Preguntas frecuentes" acceskey="U">Preguntas frecuentes</a>
-      </div>
-      
-      <footer>
-        <!-- Contenido del footer -->
-      </footer>
+    
       
 
 <script src="index.js"></script> 

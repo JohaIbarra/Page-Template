@@ -84,6 +84,7 @@ nav ul li a{
     margin-top: 120px;
     margin-bottom: 100px;
     margin-left: 100px;
+    
 }
 
 .cover{
@@ -169,20 +170,21 @@ nav ul li a{
 
 
 nav .container_nav{
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    justify-content:space-between;
-    position: relative;
-    border-color: black;
-    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+   
+
+
 
 }
 
 
 
 footer {
-    position: absolute;
+    position: static;
     background-color: #f2f2f2;
     padding: 20px;
     text-align: center;
