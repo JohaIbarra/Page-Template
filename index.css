@@ -189,3 +189,46 @@ footer {
     padding: 20px;
     text-align: center;
   }
+
+
+  
+
+  /* Estilos para el formulario */
+form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="file"],
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el recuadro de resultado */
+  .recuadro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    font-size: 16px;
+  }
+  
+  .recuadro:hover {
+    background-color: #f1f1f1;
+  }
+  
